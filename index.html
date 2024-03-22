@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Перевірка РНОКПП</title>
+</head>
+<body>
+    
+    <h2>Визначємо дату народження і стать по коду:</h2>
+    <form id="digitsForm">
+        <label for="digits">Введіть свій РНОКПП:</label>
+        <input type="text" id="digits" name="digits" minlength="10" maxlength="10" required>
+        <button type="submit">Визначити</button>
+    </form>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
