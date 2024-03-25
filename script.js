@@ -8,8 +8,8 @@ document.getElementById('digitsForm').addEventListener('submit', function(event)
     const gender = determineGender(parseInt(genderDigit));
 
     document.getElementById('result').innerHTML = `
-        <p>Дата народження: ${birthDate}</p>
-        <p>Стать: ${gender}</p>
+        <p>Ваша дата народження: ${birthDate}</p>
+        <p>Ваша стать: ${gender}</p>
     `;
 });
 
